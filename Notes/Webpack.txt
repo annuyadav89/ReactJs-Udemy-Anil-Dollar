@@ -1,0 +1,31 @@
+
+// Webpack
+     .Webpack is a free and open-source module bundler for JavaScript.
+     .It is made primarily for JavaScript, but it can transform front-end assets such as HTML, CSS,
+        and images if the corresponding loaders are included. 
+     .Webpack takes modules with dependencies and generates static assets representing those modules
+
+  example 
+
+      see Jquery . it has two types of downlods 
+      1. compressed
+      2. uncompressed   
+
+
+// we can export a function with two types
+ 1. by using default.
+ 2. by using name.  
+
+ 1. by using default = export default myDefault;
+
+ 2. by using name 
+     import { foo } from './moduleA';
+     export const foo = 'Foo';
+
+
+// Import React from 'react';  react is a library and all libraries are in node modules.
+
+// for import 
+
+import something from someLocation/someLibrary.
+import {someNamedImport} from someLocation /someLibrary

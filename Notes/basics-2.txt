@@ -1,0 +1,106 @@
+Default Port is 3000
+
+   // We can change with package.json file under 
+       "scripts": {
+        "start": "SET PORT=4000 && react-scripts start",		}
+
+Bcoz ReactJs create SPA application
+
+Single Page Application
+
+That single page is under public folder named
+index.html
+
+public/index.html
+
+What is location inside index.html where the elements are loaded?
+Inside the content area of div#root
+
+<div id="root">
+</div>
+
+BS
+
+Rows are parent
+Cols are childrens
+
+Blocking Technique
+
+CSS 
+
+How ReactJs Application Knows which element will be loaded in the Index.html file
+
+
+index.js main entry/logic file of ReactJs application
+
+npm start  -> src/index.js ---Some Element ---> index.html
+
+
+Nested Components/Elements
+
+
+MyComponent1(Parent)
+		MyCompoent2 (Child)
+
+ReactJs Project are nothing but NodeJs Project
+
+NodeJs
+	Very IMP concept
+	Import/Export
+
+Assignment
+
+A
+	B
+		C
+			D
+				E
+
+					.....
+								Z
+
+
+
+   
+
+public/index.html
+			<div id="root">
+						You elements loads here...
+			</div>
+
+npm start  
+		-> react-script start 
+					-> src/index.js
+								-> Which file to render/View/Show i.e index.html
+								-> Where to load inside index.html
+
+						public/index.html
+							<div id="root">
+									You elements loads here...
+							</div>
+
+How you can access DOM element in JS ?
+1. document.getElementById("")
+2. document.querySelector('');
+
+
+ReactJs is nothing but a NodeJs Project
+
+
+NodeJs suport Import/Export
+
+Types of adress
+
+1. Relative Address  ./
+2. Absolulate Address  C:/   /home/
+
+
+ Nested Components
+
+			A
+					B
+							C
+
+			MyComp1(default export)
+					MyComp2(named export)
+							MyComp3(named export)
